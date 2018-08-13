@@ -38,8 +38,8 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8974
 # Camera
 USE_DEVICE_SPECIFIC_CAMERA := true
 
-# CMHW
-BOARD_HARDWARE_CLASS += $(COMMON_PATH)/lineagehw
+# SamsungHW
+BOARD_HARDWARE_CLASS += $(COMMON_PATH)/samsunghw
 
 # Extended Filesystem Support
 TARGET_EXFAT_DRIVER := sdfat
