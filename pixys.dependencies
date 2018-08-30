@@ -3,25 +3,25 @@
         "remote":       "github",
         "repository":   "Jviix/device_samsung_hlte",
         "target_path":  "device/samsung/hlte",
-        "revision":     "pie-mr1"
+        "revision":     "pixys"
     },
     {
         "remote":       "github",
         "repository":   "Jviix/device_samsung_hlte-common",
         "target_path":  "device/samsung/hlte-common",
-        "revision":     "pie-mr1"
+        "revision":     "pixys"
     },
     {
         "remote":       "github",
         "repository":   "Jviix/device_samsung_msm8974-common",
         "target_path":  "device/samsung/msm8974-common",
-        "revision":     "pie-mr1"
+        "revision":     "pixys"
     },
     {
         "remote":       "github",
         "repository":   "Jviix/device_samsung_qcom-common",
         "target_path":  "device/samsung/qcom-common",
-        "revision":     "pie"
+        "revision":     "pixys"
     },
     {
         "remote":       "github",
@@ -33,7 +33,7 @@
         "remote":       "github",
         "repository":   "Jviix/hardware_samsung",
         "target_path":  "hardware/samsung",
-        "revision":     "pie"
+        "revision":     "pixys"
     },
     {
         "remote":       "github",
