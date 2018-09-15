@@ -1,4 +1,4 @@
-[ [
+[
     {
         "remote":       "github",
         "repository":   "Jviix/device_samsung_hlte",
@@ -47,4 +47,4 @@
         "target_path":  "vendor/samsung",
         "revision":     "oreo-mr1"
     }
-] 
+]
