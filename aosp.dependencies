@@ -1,25 +1,25 @@
 [ [
     {
         "remote":       "github",
-        "repository":   "LineageOS/android_device_samsung_hlte",
+        "repository":   "Jviix/device_samsung_hlte",
         "target_path":  "device/samsung/hlte",
-        "revision":     "lineage-15.1"
+        "revision":     "oreo-mr1"
     },
     {
         "remote":       "github",
-        "repository":   "LineageOS/android_device_samsung_hlte-common",
+        "repository":   "Jviix/device_samsung_hlte-common",
         "target_path":  "device/samsung/hlte-common",
-        "revision":     "lineage-15.1"
+        "revision":     "oreo-mr1"
     },
     {
         "remote":       "github",
-        "repository":   "LineageOS/android_device_samsung_msm8974-common",
+        "repository":   "Jviix/device_samsung_msm8974-common",
         "target_path":  "device/samsung/msm8974-common",
-        "revision":     "lineage-15.1"
+        "revision":     "oreo-mr1"
     },
     {
         "remote":       "github",
-        "repository":   "LineageOS/android_device_samsung_qcom-common",
+        "repository":   "Jviix/device_samsung_qcom-common",
         "target_path":  "device/samsung/qcom-common",
         "revision":     "lineage-15.1"
     },
@@ -31,20 +31,20 @@
     },
     {
         "remote":       "github",
-        "repository":   "LineageOS/android_hardware_samsung",
+        "repository":   "Jviix/hardware_samsung",
         "target_path":  "hardware/samsung",
-        "revision":     "lineage-15.1"
+        "revision":     "oreo-mr1"
     },
     {
         "remote":       "github",
-        "repository":   "LineageOS/android_packages_resources_devicesettings",
+        "repository":   "Jviix/packages_resources_devicesettings",
         "target_path":  "packages/resources/devicesettings",
-        "revision":     "lineage-15.1"
+        "revision":     "oreo-mr1"
     },
 	{
         "remote":       "github",
-        "repository":   "TheMuppets/proprietary_vendor_samsung",
+        "repository":   "Jviix/proprietary_vendor_samsung",
         "target_path":  "vendor/samsung",
-        "revision":     "lineage-15.1"
+        "revision":     "oreo-mr1"
     }
 ] 
