@@ -1,5 +1,4 @@
 # Copyright (c) 2012-2013, The Linux Foundation. All rights reserved.
-# Copyright (c) 2017-2018, The LineageOS Project. All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:
@@ -137,7 +136,7 @@
 /dev/msm_preproc_ctl      0660   system     audio
 /dev/msm_rtac             0660   system     audio
 /dev/msm_voicememo        0660   system     audio
-#/dev/radio0               0640   fm_radio   fm_radio
+/dev/radio0               0640   fm_radio   fm_radio
 /dev/smd3                 0660   bluetooth  bluetooth
 /dev/smd2                 0660   bluetooth  bluetooth
 /dev/ttyHSL1              0660   system     system
@@ -152,6 +151,10 @@
 /dev/dvb/adapter0/demux*  0440   media       media
 /dev/dvb/adapter0/dvr*    0660   media       media
 /dev/dvb/adapter0/video*  0660   media       media
+
+# Bluetooth
+/dev/ttyHS0               0660   bluetooth  bluetooth
+/dev/ttyHS2               0660   bluetooth  bluetooth
 
 # Broadcast devices
 /dev/tsc_mux0             0660   media       media
@@ -216,15 +219,15 @@ v/ppp                  0660   radio      vpn
 
 
 # Felica
-#/dev/felica               0660    mfc   system
-#/dev/felica_pon           0660    mfc   system
-#/dev/felica_cen           0660    mfc   felicalock
-#/dev/felica_rfs           0440    mfc   system
-#/dev/felica_rws           0660    mfc   system
-#/dev/felica_ant           0660    mfc   system
-#/dev/felica_int_poll      0400    mfc   system
-#/dev/felica_uid           0220    mfc   system
-#/dev/felica_uicc          0660    mfc   system
+/dev/felica               0660    mfc   system
+/dev/felica_pon           0660    mfc   system
+/dev/felica_cen           0660    mfc   felicalock
+/dev/felica_rfs           0440    mfc   system
+/dev/felica_rws           0660    mfc   system
+/dev/felica_ant           0660    mfc   system
+/dev/felica_int_poll      0400    mfc   system
+/dev/felica_uid           0220    mfc   system
+/dev/felica_uicc          0660    mfc   system
 
 # NFC
 # JPN Felica Temporary Workaround
@@ -371,9 +374,3 @@ v/ppp                  0660   radio      vpn
 /sys/devices/f9968000.i2c/i2c-12/12-0068/iio:device* pedometer_int_thresh               0660   system     radio
 /sys/devices/f9968000.i2c/i2c-12/12-0068/iio:device* pedometer_step_thresh              0660   system     radio
 
-# msim radio nodes (h3gduoschn)
-/dev/modem_br             0664   root        radio
-/dev/gsm_boot0            0664   root        radio
-/dev/gsm_ipc0             0664   root        radio
-/dev/gsm_multi_pdp        0664   root        radio
-/dev/gsm_rfs0             0664   root        radio
