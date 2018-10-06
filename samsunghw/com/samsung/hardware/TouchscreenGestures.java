@@ -15,11 +15,11 @@
  * limitations under the License.
  */
 
-package org.lineageos.hardware;
+package com.samsung.hardware;
 
-import org.lineageos.internal.util.FileUtils;
+import com.samsung.internal.util.FileUtils;
 
-import lineageos.hardware.TouchscreenGesture;
+import samsung.hardware.TouchscreenGesture;
 
 /**
  * Touchscreen gestures API
