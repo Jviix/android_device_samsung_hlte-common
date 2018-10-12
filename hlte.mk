@@ -42,6 +42,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Gestures
 #PRODUCT_PACKAGES += \
     com.android.keyhandler
+    
 # Input device
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/sec_e-pen.idc:system/usr/idc/sec_e-pen.idc
