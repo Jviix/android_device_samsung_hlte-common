@@ -40,7 +40,7 @@ PRODUCT_AAPT_CONFIG := normal hdpi xhdpi xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Gestures
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     com.android.keyhandler
 # Input device
 PRODUCT_COPY_FILES += \
