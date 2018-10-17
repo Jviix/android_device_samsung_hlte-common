@@ -44,6 +44,10 @@ TARGET_EXFAT_DRIVER := sdfat
 # HIDL
 DEVICE_MANIFEST_FILE += $(COMMON_PATH)/manifest.xml
 
+# Key disabler
+JAVA_SOURCE_OVERLAYS := \
+    org.pixelexperience.keydisabler|$(DEVICE_PATH)/keydisabler|**/*.java
+
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_CMDLINE := console=null androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x3F androidboot.bootdevice=msm_sdcc.1
