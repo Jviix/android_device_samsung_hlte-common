@@ -16,8 +16,6 @@
 
 package org.pixelexperience.keydisabler;
 
-import com.samsung.internal.util.FileUtils;
-
 /*
  * Disable capacitive keys
  *
@@ -28,32 +26,22 @@ import com.samsung.internal.util.FileUtils;
  */
 
 public class KeyDisabler {
-    
+
     private static String KEYDISABLER_PATH = "/sys/class/sec/sec_touchkey/keypad_enable";
-    /*
-     * All HAF classes should export this boolean.
-     * Real implementations must, of course, return true
-     */
-    
+
     public static boolean isSupported() {
-        return FileUtils.isFileWritable(KEYDISABLER_PATH) &&
-                FileUtils.isFileReadable(KEYDISABLER_PATH);
+        return FileUtils.isFileWritable(KEYDISABLER_PATH);
     }
-    
-    /*
-     * Are the keys currently blocked?
-     */
-    
+
     public static boolean isActive() {
         int i;
         i = Integer.parseInt(FileUtils.readOneLine(KEYDISABLER_PATH));
+
         return i > 0 ? false : true;
     }
-    /*
-     * Disable capacitive keys
-     */
-    
+
     public static boolean setActive(boolean state) {
         return FileUtils.writeLine(KEYDISABLER_PATH, String.valueOf(state ? 0 : 1));
     }
+
 }
