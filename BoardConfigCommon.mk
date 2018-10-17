@@ -46,7 +46,7 @@ DEVICE_MANIFEST_FILE += $(COMMON_PATH)/manifest.xml
 
 # Key disabler
 JAVA_SOURCE_OVERLAYS := \
-    org.pixelexperience.keydisabler|$(DEVICE_PATH)/keydisabler|**/*.java
+    org.pixelexperience.keydisabler|$(VENDOR_PATH)/keydisabler|**/*.java
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
