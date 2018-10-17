@@ -16,7 +16,7 @@
 
 package org.pixelexperience.keydisabler;
 
-import org.pixelexperience.keydisabler.util.FileUtils;
+import com.samsung.internal.util.FileUtils;
 
 /*
  * Disable capacitive keys
