@@ -41,10 +41,16 @@
         "target_path":  "packages/resources/devicesettings",
         "revision":     "lineage-16.0"
     },
-	{
+    {
         "remote":       "github",
         "repository":   "Jviix/proprietary_vendor_samsung",
         "target_path":  "vendor/samsung",
         "revision":     "pie"
+    },
+    {
+        "remote": "pixel-gitlab"
+    	"repository": "packages_apps_WallpapersBReel2018",
+    	"target_path": "packages/apps/WallpapersBReel2018",
+    	"revision": "pie"
     }
 ] 
